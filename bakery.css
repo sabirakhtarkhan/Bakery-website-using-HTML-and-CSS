@@ -1,0 +1,464 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    /* outline:2px solid red; */
+    
+}
+header{
+   
+    /* border: 5px solid red; */
+    
+}
+
+.img-slider{
+    
+    width: 100%;
+    height: 38rem;
+    
+
+    /* height: 00px; */
+}
+nav>ul{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+    width: 50%;
+    
+}
+li{
+    list-style: none;
+   
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 1rem;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 5px solid yellow; */
+    
+}
+nav > h2{
+    color:azure;
+    font-size:2rem;
+}
+
+h2:hover, li :hover{
+    color:burlywood;
+    text-decoration: underline white;
+    
+}
+/* nav end */
+
+/* header content */
+.content-inside-header{
+    position: absolute;
+    width: 100%;
+    top:28.5rem;
+    color: azure;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+
+    /* font-size: 0.8rem; */
+
+}
+
+.content-inside-header > p {
+    width: 50%;
+    text-align: center;
+    color: rgb(223, 211, 211);
+    
+}
+.content-inside-header> div {
+    display: flex;
+    gap: 1rem;
+    
+}
+.head-btn {
+    padding: 0.4rem 2rem;
+    background-color: transparent;
+    color: azure;
+    font-weight: 900;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    box-shadow:0px 0px 10px gray;
+}
+.head-btn:hover {
+    padding: 0.5rem 2rem;
+    background-color: brown;
+    transform: scale(1.1);
+    transition: 0.10s ease-in;
+    color: rgb(196, 177, 177);
+    /* font-weight: 900; */
+    /* border-radius: 10px; */
+    /* margin-top: 0.5rem; */
+    box-shadow:0px 0px 10px gray;
+
+}
+/* content head end */
+
+/* section creation start*/
+.cookie-logo{
+    background-image: url(cookie-removebg-preview.png);
+    height: 5rem;
+    width: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 3px solid sienna;
+    width: 20%;
+}
+.creation{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 4rem 12rem;
+    background-color:;
+   
+    gap: 1rem;
+    
+}
+.creation >p{
+    color: rgb(155, 92, 63);
+}
+/* creaion end */
+
+/* work Display start  */
+
+.work-display{
+    display: flex;
+    background-color:antiquewhite;
+    height: 20rem;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    
+    gap: 2  rem;
+    
+}
+
+
+.work-display-box{
+    width: 20%;
+    /* border: 2px solid black; */
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding:0 0.5rem;
+
+
+}
+
+img.work{
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid saddlebrown;
+    border-radius: 5px;
+    padding: 0.2rem;
+    
+}
+h4{
+    margin: 1rem 0 1.5rem 0;
+}
+.work-display p {
+    color: rgb(167, 105, 105);
+}
+
+/* enjoy tile start */ 
+.enjoy-logo{
+    
+        background-image: url(enjoy-removebg-preview.png);
+        height: 5rem;
+        width: 5rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        border-bottom: 3px solid sienna;
+        width: 20%;
+    
+}
+/* pdouct start */
+.product {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    gap: 1rem;
+    background-color:antiquewhite;
+
+    
+}
+
+.product-card {
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+    box-shadow: 0 0 5px gray;
+    border-radius: 10px;
+}
+.pro-img{
+    width: 50%;
+    height: 60%;
+}
+
+.pro-img:hover{
+    transform: scale(1.08);
+    transition: .15s ease;
+}
+
+div.product p{
+    color:rgb(173, 121, 121);
+    margin-bottom: 0.5rem;
+}
+h5{
+    /* border: 1px solid rgb(196, 51, 51); */
+    width: 30%;
+    /* background-color: brown; */
+    color: rgb(146, 117, 117);
+    font-size: 2rem;
+    /* margin: 0.5rem 0; */
+    padding: 0.5rem;
+    /* border-radius: 20px; */
+    
+}
+.pro-btn{
+    width: 40%;
+    background-color:sienna;
+    border: none;
+    color: azure;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+span {
+    color: rgb(116, 70, 50);
+}
+/* end */
+/* only product */
+
+.only-product {
+    display: flex;
+   
+    
+    
+}
+.op-div{
+    
+}
+
+.only-product > .op.div >h3{
+    color: red;
+}
+
+
+.op-div > img{
+    width: 100%;
+    height:100%;
+    opacity: 0.6;
+}
+.op-div > img:hover {
+    
+    opacity: 1;
+    
+}
+/* .op-div > img, .op-div > h1{
+    &:hover {
+     opacity: 1;
+    }
+  } */
+
+  
+
+.op-div > h1 {
+    position: relative;
+    bottom: 10rem;
+    left:10rem;
+    /* color: antiquewhite; */
+    opacity: 0.5;
+    
+    
+}
+/*  */
+
+
+.choco-logo{
+    /* border: 3px solid red; */
+    
+    background-image: url(choco-removebg-preview.png);
+    height: 7rem;
+    width: 7rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 3px solid sienna;
+    width: 30%;
+}
+
+
+
+.form-img{
+    padding: 2rem 0;
+    display: flex;
+    
+    /* box-shadow: 0 0 5px 5px gray; */
+    /* border: 2px solid red; */
+    width: 100%;
+    align-items: center;
+    /* height: 20%; */
+    justify-content: space-evenly;
+
+}
+.forms{
+    width:40%;
+    /* border: 2px solid green; */
+    padding: 2rem;
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.377);
+    border-radius: 10px;
+    
+   
+}
+.forms > p {
+    font-weight: 300;
+    color:rgb(146, 117, 117);
+}
+
+.f-img{
+    background-image: url(x2.jpg);
+    width: 35rem;
+    height: 22.8rem;
+    /* border: 2px solid yellow; */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.377);
+    border-radius: 10px;
+
+}
+.h2-tomato {
+    background-color: #c83f49;
+    border-radius: 10px;
+    color:antiquewhite;
+    padding: 0.5rem 1rem;
+    margin:1rem 0;
+}
+
+
+.chef-logo {
+    background-image: url(chef-removebg-preview.png);
+    height: 7rem;
+    width: 7rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 3px solid sienna;
+    width: 30%;
+}
+
+.only-chef{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-evenly;
+
+}
+
+.only-chef > .chef-div > img{
+    width:25rem ;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.377);
+}
+
+
+/* contact form */
+
+.contact-logo {
+    background-image: url(contactUs..png);
+    height: 6rem;
+    width: 6rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-bottom: 3px solid sienna;
+    width: 30%;
+
+}
+
+form {
+    /* border: 2px solid red; */
+    background-color:antiquewhite;
+    width:80%;
+    border-radius: 10px;
+    height: 20rem;
+    box-shadow: 0 0 5px 5px rgba(128, 128, 128, 0.377);
+}
+form > p> input {
+    width: 40%;
+    padding: 0.5rem 0.2rem;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+
+form > p {
+    display: flex;
+    
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem;
+    /* border: 1px solid green; */
+}
+textarea {
+    width: 80%;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+iframe {
+    margin: 0;
+    width: 100%;
+}
+
+.footer-main {
+    padding: 2rem 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0rem 0.5rem; */
+    background-color: antiquewhite;
+}
+.footer > ul >li>a {
+    color: brown
+    
+}
+.footer > ul >li {
+    line-height: 2rem;
+}
+
+.footer{
+    /* border: 2px solid black; */
+    width: 15rem;
+    height: 15rem;
+    
+    
+}
+
